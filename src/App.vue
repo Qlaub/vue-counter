@@ -1,47 +1,54 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+  import { ref } from 'vue'
+
+  const count = ref(0)
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
   <main>
-    <TheWelcome />
+    <div>
+      <h4>
+        The current count is...
+      </h4>
+      <h1>{{ count }}</h1>
+      <button @click="count--">-</button>
+      <button @click="count++">+</button>
+    </div>
   </main>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
+  main {
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100vw;
     display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    align-items: center;
+    justify-content: center;
   }
 
-  .logo {
-    margin: 0 2rem 0 0;
+  div {
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .5);
+    background-color: rgb(81, 81, 81);
+    color: aliceblue;
   }
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
+  button {
+    padding: 3px 9px;
+    font-size: 16px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 5px;
   }
-}
+
+  button:active {
+    background-color: rgb(207, 231, 251);
+  }
+
+  button + button {
+    margin-left: 5px;
+  }
 </style>
