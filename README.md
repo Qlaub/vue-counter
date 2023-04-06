@@ -1,29 +1,15 @@
-# VueCounterApp
+# Vue Counter
 
-This template should help get you started developing with Vue 3 in Vite.
+## Description
+A simple counter application I built to learn Vue 3. This application is a part of a series of five applications I'm building to learn the Vue 3 framework.
 
-## Recommended IDE Setup
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Questions](#questions)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Installation
+This is a web application, so no installation is necessary.
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Questions
+Feel free to email me with any questions at e.pirazzi@gmail.com or take a look at my [GitHub](https://github.com/Qlaub)
