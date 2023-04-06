@@ -1,7 +1,7 @@
 # [Vue Counter](https://qlaub.github.io/vue-counter/)
 
 ## Description
-A simple counter application I built to learn Vue 3. This application is a part of a series of five applications I'm building to learn the Vue 3 framework.
+A simple counter application I built to learn Vue 3. This application is the first of five applications I'm building to better understand the Vue 3 framework.
 
 ## Table of Contents
 - [Installation](#installation)
